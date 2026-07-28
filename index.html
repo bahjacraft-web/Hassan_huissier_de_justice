@@ -435,7 +435,8 @@
         // Init
         document.getElementById('btn-fr').addEventListener('click', () => applyLang('fr'));
         document.getElementById('btn-ar').addEventListener('click', () => applyLang('ar'));
-        const saved = localStorage.getItem('site_lang') || (navigator.language && navigator.language.startsWith('ar') ? 'ar' : 'fr');
+        // Default to Arabic on first visit; user choice persists in localStorage
+        const saved = localStorage.getItem('site_lang') || 'ar';
         applyLang(saved);
     </script>
 
