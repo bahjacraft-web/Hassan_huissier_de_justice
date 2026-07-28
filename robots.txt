@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bahjacraft-web.github.io/Hassan_huissier_de_justice/sitemap.xml

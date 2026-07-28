@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maître Hassan El Bahja - Huissier de Justice à Taza</title>
+    <meta name="description" content="Étude de Maître Hassan El Bahja, huissier de justice à Taza — signification d'actes, constats juridiques, exécution de décisions, recouvrement de créances. Contact et localisation." />
+    <link rel="canonical" href="https://bahjacraft-web.github.io/Hassan_huissier_de_justice/" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Maître Hassan El Bahja - Huissier de Justice à Taza" />
+    <meta property="og:description" content="Étude de Maître Hassan El Bahja, huissier de justice à Taza — signification d'actes, constats juridiques, exécution de décisions, recouvrement de créances." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bahjacraft-web.github.io/Hassan_huissier_de_justice/" />
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* CSS Variables for Moroccan Justice Colors */
+        :root {
+            --primary-green: #006233; /* Moroccan Flag Green */
+            --primary-red: #C1272D; /* Moroccan Flag Red */
+            --justice-gold: #D4AF37; /* Justice Gold */
+            --robe-black: #1A1A1A; /* Judicial Robe Black */
+            --light-bg: #F8F9FA;
+            --text-color: #333333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            color: var(--text-color);
+            background-color: var(--light-bg);
+            line-height: 1.6;
+        }
+
+        /* Header / Hero Section */
+        header {
+            background-color: var(--robe-black);
+            color: white;
+            text-align: center;
+            padding: 4rem 2rem;
+            border-bottom: 5px solid var(--primary-red);
+            position: relative;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background-color: var(--primary-green);
+        }
+
+        .logo-icon {
+            font-size: 4rem;
+            color: var(--justice-gold);
+            margin-bottom: 1rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #CCCCCC;
+            margin-bottom: 2rem;
+        }
+
+        /* Sections General */
+        section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            text-align: center;
+            color: var(--primary-green);
+            font-size: 2rem;
+            margin-bottom: 3rem;
+            text-transform: uppercase;
+        }
+
+        h2::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background-color: var(--justice-gold);
+            margin: 10px auto 0;
+        }
+
+        /* Services Grid (What a Huissier does) */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .service-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            text-align: center;
+            border-top: 4px solid var(--justice-gold);
+            transition: transform 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .service-card i {
+            font-size: 2.5rem;
+            color: var(--primary-green);
+            margin-bottom: 1rem;
+        }
+
+        .service-card h3 {
+            margin-bottom: 1rem;
+            color: var(--robe-black);
+        }
+
+        /* Work Ethic Section (How he works well) */
+        .ethic-section {
+            background-color: white;
+            padding: 4rem 2rem;
+            margin-top: 2rem;
+        }
+
+        .ethic-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 3rem;
+        }
+
+        .ethic-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .ethic-text p {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            text-align: justify;
+        }
+
+        .ethic-features {
+            flex: 1;
+            min-width: 300px;
+            list-style: none;
+        }
+
+        .ethic-features li {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .ethic-features li i {
+            color: var(--justice-gold);
+            margin-right: 15px;
+            font-size: 1.3rem;
+        }
+
+        /* Contact & Map Section */
+        .contact-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .contact-info {
+            background: var(--robe-black);
+            color: white;
+            padding: 2.5rem;
+            border-radius: 8px;
+        }
+
+        .contact-info h3 {
+            color: var(--justice-gold);
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-info p {
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-info i {
+            margin-right: 15px;
+            color: var(--primary-green);
+            font-size: 1.2rem;
+        }
+
+        .map-container {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        /* Floating WhatsApp Button */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50px;
+            padding: 12px 25px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: background-color 0.3s, transform 0.3s;
+            z-index: 1000;
+        }
+
+        .whatsapp-float i {
+            font-size: 1.8rem;
+            margin-right: 10px;
+        }
+
+        .whatsapp-float:hover {
+            background-color: #128C7E;
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0A0A0A;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <i class="fa-solid fa-scale-balanced logo-icon"></i>
+        <h1>Maître Hassan El Bahja</h1>
+        <p>Huissier de Justice près le Tribunal de Première Instance de Taza</p>
+    </header>
+
+    <!-- What a Huissier Does -->
+    <section>
+        <h2>Notre Rôle & Nos Missions</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fa-solid fa-file-signature"></i>
+                <h3>Signification d'Actes</h3>
+                <p>Remise officielle des actes judiciaires et extra-judiciaires (assignations, jugements, mises en demeure) pour garantir leur validité légale.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-gavel"></i>
+                <h3>Exécution des Décisions</h3>
+                <p>Mise en application des jugements des tribunaux, incluant les saisies, les expulsions et le recouvrement forcé.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-eye"></i>
+                <h3>Constats Juridiques</h3>
+                <p>Établissement de procès-verbaux de constat (dégâts, abandons de poste, malfaçons) constituant des preuves incontestables devant les tribunaux.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+                <h3>Recouvrement de Créances</h3>
+                <p>Intervention amiable ou judiciaire pour récupérer vos impayés dans les plus brefs délais et avec efficacité.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How He Works Well -->
+    <div class="ethic-section">
+        <h2>Une Méthode de Travail d'Excellence</h2>
+        <div class="ethic-container">
+            <div class="ethic-text">
+                <p>Le cabinet de <strong>Maître Hassan El Bahja</strong> s'engage à fournir un service juridique de haute qualité, fondé sur la rigueur et le respect absolu de la loi marocaine.</p>
+                <p>Conscient que chaque situation est unique et souvent urgente, notre étude met un point d'honneur à traiter vos dossiers avec la plus grande réactivité, tout en garantissant le secret professionnel le plus strict.</p>
+            </div>
+            <ul class="ethic-features">
+                <li><i class="fa-solid fa-bolt"></i> <strong>Rapidité d'intervention :</strong> Traitement express de vos dossiers et constats.</li>
+                <li><i class="fa-solid fa-shield-halved"></i> <strong>Rigueur et Légalité :</strong> Des actes inattaquables conformes au droit marocain.</li>
+                <li><i class="fa-solid fa-user-secret"></i> <strong>Confidentialité absolue :</strong> Protection totale de vos informations et litiges.</li>
+                <li><i class="fa-solid fa-handshake-angle"></i> <strong>Conseil de proximité :</strong> Un accompagnement clair pour vous guider dans vos démarches.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Contact and Map -->
+    <section>
+        <h2>Contact & Localisation</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Coordonnées de l'Étude</h3>
+                <p><i class="fa-solid fa-user-tie"></i> Maître Hassan El Bahja</p>
+                <p><i class="fa-solid fa-location-dot"></i> Taza, Maroc</p>
+                <p><i class="fa-solid fa-phone"></i> +212 670 505 273</p>
+                <p><i class="fa-solid fa-envelope"></i> contact@huissier-elbahja-taza.ma</p>
+                <br>
+                <p style="font-size: 0.9rem; color: #aaa;">Horaires : Lundi au Vendredi - 08:30 à 16:30</p>
+            </div>
+            
+            <div class="map-container">
+                <!-- Google Maps iframe using the exact coordinates provided -->
+                <iframe 
+                    src="https://maps.google.com/maps?q=34.218783,-4.004140&hl=fr&z=15&output=embed" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0; min-height: 300px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp Button -->
+    <!-- The link uses the country code 212 and drops the first 0 of the phone number -->
+    <a href="https://wa.me/212670505273" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp"></i> Contactez-nous
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Étude de Maître Hassan El Bahja - Huissier de Justice à Taza. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
